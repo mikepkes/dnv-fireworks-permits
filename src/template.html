@@ -103,7 +103,7 @@ h1{font-family:var(--f-display);font-weight:700;font-size:26px;line-height:1.08;
     <div class="rail-head">
       <div class="eyebrow">District of North Vancouver · FOI 26-214</div>
       <h1>Fireworks discharge permits</h1>
-      <p class="sub">Each dot is a permitted discharge address. Larger dots had more than one permit.</p>
+      <p class="sub">Each dot is a permitted discharge address. Dot area is proportional to the number of permits naming it.</p>
       <div class="seg" role="group" aria-label="Filter by year">
         <button id="f-all" data-y="all" aria-pressed="true">Both years</button>
         <button id="f-2025" data-y="2025" aria-pressed="false"><span class="dot" style="background:var(--y25)"></span>2025</button>
@@ -161,6 +161,7 @@ map.on('zoomend',labelZoom);
 
 const ptLayer=L.layerGroup().addTo(map);
 const markers=new Map();
+const R0=4.5; // radius of a one-permit dot; area scales linearly with permit count
 function cat(p){ if(year==='2025') return p.c25?'y25':null; if(year==='2026') return p.c26?'y26':null; return p.c25&&p.c26?'both':p.c25?'y25':'y26'; }
 function cnt(p){ return year==='2025'?p.c25:year==='2026'?p.c26:p.c25+p.c26; }
 function popup(p){
@@ -170,11 +171,11 @@ function popup(p){
 function visible(){ return pts.filter(p=>cat(p)&&(!query||p.a.toLowerCase().includes(query))); }
 function draw(){
   ptLayer.clearLayers(); markers.clear();
-  const v=visible().sort((a,b)=>cnt(a)-cnt(b));
+  const v=visible().sort((a,b)=>cnt(b)-cnt(a)); // largest first, so smaller neighbours stay on top and clickable
   const halo=css('--halo');
   v.forEach(p=>{
     const k=cat(p), n=cnt(p);
-    const m=L.circleMarker([p.lat,p.lon],{renderer:R,radius:4.5+Math.min(n-1,4)*2.2,fillColor:css('--'+k),fillOpacity:.9,color:halo,weight:1.5});
+    const m=L.circleMarker([p.lat,p.lon],{renderer:R,radius:R0*Math.sqrt(n),fillColor:css('--'+k),fillOpacity:n>1?.78:.9,color:halo,weight:1.5});
     m.bindPopup(popup(p),{closeButton:false});
     m.addTo(ptLayer); markers.set(p.a,m);
   });
@@ -191,7 +192,8 @@ function stats(){
   if(year==='all'){ rep.textContent=both; repl.textContent='Addresses in both years'; }
   else { const multi=sel.filter(p=>cnt(p)>1).length; rep.textContent=multi; repl.textContent='With 2+ permits'; }
   const lg=document.getElementById('legend');
-  const sizes='<span class="sz"><i style="width:7px;height:7px"></i><i style="width:11px;height:11px"></i><i style="width:15px;height:15px"></i> 1, 2, 3+ permits</span>';
+  const d=n=>Math.round(2*R0*Math.sqrt(n));
+  const sizes=`<span class="sz">${[1,5,18].map(n=>`<i style="width:${d(n)}px;height:${d(n)}px"></i>`).join('')} 1, 5, 18 permits</span>`;
   lg.innerHTML=(year==='all'
     ? `<span><i style="background:var(--y25)"></i>2025 only</span><span><i style="background:var(--y26)"></i>2026 only</span><span><i style="background:var(--both)"></i>Both years</span>`
     : `<span><i style="background:var(--${year==='2025'?'y25':'y26'})"></i>${year} permit</span>`)+sizes;
@@ -238,6 +240,7 @@ const tS=document.getElementById('t-sellers');
 try{ tS.checked=localStorage.getItem('fw-sellers')==='1'; }catch(e){}
 const syncSellers=()=>{ if(tS.checked) sellerLayer.addTo(map); else map.removeLayer(sellerLayer); try{localStorage.setItem('fw-sellers',tS.checked?'1':'0');}catch(e){} };
 tS.addEventListener('change',syncSellers); syncSellers();
+if(!D.sellers.length){ tS.checked=false; syncSellers(); tS.closest('label').hidden=true; }
 
 const b=L.latLngBounds(pts.map(p=>[p.lat,p.lon]));
 map.fitBounds(b.pad(0.04));

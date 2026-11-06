@@ -23,6 +23,7 @@ Add a row to `data/sellers.csv`:
 | `address` | `1089 MARINE DR` |
 | `seller` | `Phatboy Fireworks` |
 | `years_confirmed` | `2025;2026` (semicolon-separated, blank if unknown) |
+| `verified` | `yes` only with a reliable source (District licence record or official vendor list for that season); otherwise `no`. Only `yes` rows appear on the map. |
 | `source` | short description of the source |
 | `source_url` | link |
 

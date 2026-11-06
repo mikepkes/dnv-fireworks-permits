@@ -51,7 +51,9 @@ def main():
 
     by_addr = collections.defaultdict(list)
     for s in sellers:
-        by_addr[key(s["address"])].append(s)
+        # Only verified sellers are published on the map; unverified rows are research notes.
+        if s.get("verified", "").strip().lower() in ("yes", "true", "1"):
+            by_addr[key(s["address"])].append(s)
     seller_out = []
     for a, ss in by_addr.items():
         if a not in geo:
