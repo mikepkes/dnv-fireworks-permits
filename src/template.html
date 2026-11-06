@@ -64,6 +64,10 @@ h1{font-family:var(--f-display);font-weight:700;font-size:26px;line-height:1.08;
 .list-title .c{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
 .list{list-style:none;margin:0;padding:0 0 16px;overflow-y:auto;min-height:0;flex:1}
 .list li{border-top:1px solid var(--line)}
+.list li.sep{border-top:0;padding:16px 4px 6px;font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;gap:8px}
+.list li.sep+li{border-top:1px solid var(--line)}
+.list li.sep:first-child{padding-top:4px}
+.list li.none{border-top:0;padding:8px 4px 4px;color:var(--muted);font-size:13px}
 .list button{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:10px 1fr auto;align-items:center;gap:10px;padding:8px 4px;cursor:pointer;border-radius:6px}
 .list button:hover{background:var(--bg)}
 .list .a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
@@ -158,6 +162,7 @@ function base(){
 const labels=L.layerGroup(D.labels.map(([n,lat,lon,a])=>L.marker([lat,lon],{interactive:false,keyboard:false,icon:L.divIcon({className:'rlabel',iconSize:[0,0],html:`<span style="transform:translate(-50%,-50%) rotate(${a}deg)">${n}</span>`})})));
 function labelZoom(){ if(map.getZoom()>=13.5) labels.addTo(map); else map.removeLayer(labels); }
 map.on('zoomend',labelZoom);
+map.on('moveend',()=>list(lastVisible));
 
 const ptLayer=L.layerGroup().addTo(map);
 const markers=new Map();
@@ -198,13 +203,19 @@ function stats(){
     ? `<span><i style="background:var(--y25)"></i>2025 only</span><span><i style="background:var(--y26)"></i>2026 only</span><span><i style="background:var(--both)"></i>Both years</span>`
     : `<span><i style="background:var(--${year==='2025'?'y25':'y26'})"></i>${year} permit</span>`)+sizes;
 }
+let lastVisible=[];
 function list(v){
+  lastVisible=v;
   const ul=document.getElementById('list');
   const sorted=v.slice().sort((a,b)=>cnt(b)-cnt(a)||(b.c25&&b.c26)-(a.c25&&a.c26)||a.a.localeCompare(b.a));
-  document.getElementById('list-c').textContent=sorted.length+' shown';
+  const bounds=map.getBounds();
+  const inView=sorted.filter(p=>bounds.contains([p.lat,p.lon]));
+  const outView=sorted.filter(p=>!bounds.contains([p.lat,p.lon]));
+  document.getElementById('list-c').textContent=`${inView.length} in view · ${sorted.length} total`;
   ul.innerHTML='';
   const frag=document.createDocumentFragment();
-  sorted.forEach(p=>{
+  const sep=(label,n)=>{ const li=document.createElement('li'); li.className='sep'; li.innerHTML=`<span>${label}</span><span>${n}</span>`; frag.appendChild(li); };
+  const row=p=>{
     const li=document.createElement('li'), b=document.createElement('button');
     const k=cat(p), n=cnt(p);
     b.innerHTML=`<i style="background:var(--${k})"></i><span class="a"></span><span class="k">${year==='all'?`${p.c25} · ${p.c26}`:n}</span>`;
@@ -212,8 +223,13 @@ function list(v){
     b.title=year==='all'?`${p.a}: ${p.c25} in 2025, ${p.c26} in 2026`:`${p.a}: ${n} in ${year}`;
     b.addEventListener('click',()=>{ map.flyTo([p.lat,p.lon],16.5,{duration:.6}); setTimeout(()=>markers.get(p.a)?.openPopup(),650); });
     li.appendChild(b); frag.appendChild(li);
-  });
+  };
+  if(outView.length) sep('In map view',inView.length);
+  if(!inView.length){ const li=document.createElement('li'); li.className='none'; li.textContent='No addresses in this part of the map.'; frag.appendChild(li); }
+  inView.forEach(row);
+  if(outView.length){ sep('Outside map view',outView.length); outView.forEach(row); }
   ul.appendChild(frag);
+  ul.scrollTop=0;
   document.getElementById('list-h').textContent=year==='all'?'Addresses · 2025 · 2026':'Addresses, most permits first';
 }
 document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>{
