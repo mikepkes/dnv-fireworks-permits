@@ -1,0 +1,252 @@
+<title>North Shore Fireworks Permits</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>/*LEAFLET_CSS*/</style>
+<style>
+/* Layout: one-screen map app. Map fills the stage; a control rail sits left on desktop, below the map on phones. */
+:root{
+  --bg:#eef0f4; --panel:#ffffff; --ink:#1b2130; --muted:#5d6577; --line:#d6dae3;
+  --land:#f5f3ee; --water:#c9d9e8; --road-major:#c7b9a4; --road-mid:#d8cfc1; --road-minor:#e4e0d9; --bound:#8a93a6;
+  --y25:#d9661f; --y26:#7b3fc4; --both:#c21d5a; --halo:#ffffff;
+  --accent:#7b3fc4;
+  --f-display:"Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --f-body:"IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e1220; --panel:#151a2b; --ink:#e9ebf3; --muted:#9aa2b8; --line:#283049;
+  --land:#121728; --water:#0a2236; --road-major:#4a4f66; --road-mid:#363b52; --road-minor:#262b3f; --bound:#5d6788;
+  --y25:#ff9a4d; --y26:#b98cff; --both:#ff5c93; --halo:#0e1220; --accent:#b98cff; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1220; --panel:#151a2b; --ink:#e9ebf3; --muted:#9aa2b8; --line:#283049;
+  --land:#121728; --water:#0a2236; --road-major:#4a4f66; --road-mid:#363b52; --road-minor:#262b3f; --bound:#5d6788;
+  --y25:#ff9a4d; --y26:#b98cff; --both:#ff5c93; --halo:#0e1220; --accent:#b98cff; color-scheme:dark}
+
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.45}
+.app{height:100%;display:grid;grid-template-columns:340px 1fr;grid-template-rows:100%}
+.rail{background:var(--panel);border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0;min-width:0}
+.rail-head{padding-block:20px 16px;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:20px;display:flex;flex-direction:column;gap:14px;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--f-display);font-weight:700;font-size:26px;line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0;font-size:13px}
+
+.seg{display:grid;grid-template-columns:repeat(3,1fr);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:3px;gap:3px}
+.seg button{font:600 14px/1 var(--f-body);color:var(--muted);background:transparent;border:0;border-radius:7px;padding:10px 0;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:7px}
+.seg button .dot{width:9px;height:9px;border-radius:50%}
+.seg button[aria-pressed="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.seg button:focus-visible,.list button:focus-visible,.search:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.stat .n{font-family:var(--f-display);font-weight:700;font-size:24px;font-variant-numeric:tabular-nums;line-height:1.1}
+.stat .l{font-size:12px;color:var(--muted)}
+.delta{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:10px;height:10px;border-radius:50%;display:inline-block;border:1.5px solid var(--halo);box-shadow:0 0 0 1px var(--line)}
+.legend .sz{display:inline-flex;align-items:center;gap:4px}
+.legend .sz i{background:var(--muted)}
+
+.toggle{display:flex;align-items:center;gap:10px;font-size:13px;cursor:pointer;user-select:none}
+.toggle input{width:16px;height:16px;accent-color:var(--accent);margin:0}
+.toggle .sw{width:12px;height:12px;background:var(--ink);transform:rotate(45deg);border:2px solid var(--halo);box-shadow:0 0 0 1px var(--ink);flex:none}
+.toggle small{color:var(--muted)}
+.seller{width:0;height:0}
+.seller div{position:absolute;left:-9px;top:-9px;width:14px;height:14px;background:var(--ink);border:2px solid var(--halo);transform:rotate(45deg);box-shadow:0 0 0 1px var(--ink),0 2px 6px rgba(0,0,0,.35)}
+.pop-s{font-size:11px;color:var(--muted);margin-top:6px;line-height:1.4}
+.pop-k{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.rail-body{flex:1;min-height:0;display:flex;flex-direction:column;padding-block:14px 0;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:20px;gap:10px}
+.search{font:14px var(--f-body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 11px;width:100%;box-sizing:border-box}
+.list-title{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.list-title h2{font:600 13px var(--f-body);margin:0}
+.list-title .c{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.list{list-style:none;margin:0;padding:0 0 16px;overflow-y:auto;min-height:0;flex:1}
+.list li{border-top:1px solid var(--line)}
+.list button{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:10px 1fr auto;align-items:center;gap:10px;padding:8px 4px;cursor:pointer;border-radius:6px}
+.list button:hover{background:var(--bg)}
+.list .a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.list .k{font-family:var(--f-mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.list i{width:10px;height:10px;border-radius:50%}
+.foot{font-size:11px;color:var(--muted);padding-block:10px 14px;border-top:1px solid var(--line)}
+
+.stage{position:relative;min-width:0;min-height:0}
+#map{position:absolute;inset:0;background:var(--water)}
+.leaflet-container{font-family:var(--f-body);background:var(--water)}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--panel);color:var(--ink);box-shadow:0 4px 18px rgba(0,0,0,.25)}
+.leaflet-popup-content{margin:12px 14px;font-size:13px}
+.pop-a{font-weight:600;font-size:14px;margin-bottom:6px}
+.pop-r{display:flex;gap:14px;font-family:var(--f-mono);font-size:12px}
+.pop-r b{font-weight:500}
+.pop-n{margin-top:6px;font-size:11px;color:var(--muted)}
+.leaflet-bar a{background:var(--panel);color:var(--ink);border-color:var(--line)}
+.leaflet-bar a:hover{background:var(--bg)}
+.leaflet-control-attribution{background:color-mix(in srgb,var(--panel) 80%,transparent)!important;color:var(--muted)!important;font-size:10px}
+.leaflet-control-attribution a{color:var(--muted)!important}
+.rlabel{font:500 10.5px var(--f-body);color:var(--muted);white-space:nowrap;text-shadow:0 0 3px var(--land),0 0 3px var(--land),0 0 3px var(--land);pointer-events:none;letter-spacing:.02em}
+.rlabel span{display:inline-block;transform:translate(-50%,-50%)}
+
+@media (max-width:760px){
+  .app{grid-template-columns:100%;grid-template-rows:auto 58vh auto;height:auto}
+  .rail{display:contents}
+  .rail-head{order:1;background:var(--panel);padding-right:max(16px,env(safe-area-inset-right,0px));padding-left:max(16px,env(safe-area-inset-left,0px))}
+  .stage{order:2;height:58vh}
+  .rail-body{order:3;background:var(--panel);padding-right:max(16px,env(safe-area-inset-right,0px));padding-left:max(16px,env(safe-area-inset-left,0px))}
+  .list{max-height:none;overflow:visible}
+  h1{font-size:22px}
+}
+</style>
+
+<div class="app">
+  <aside class="rail">
+    <div class="rail-head">
+      <div class="eyebrow">District of North Vancouver · FOI 26-214</div>
+      <h1>Fireworks discharge permits</h1>
+      <p class="sub">Each dot is a permitted discharge address. Larger dots had more than one permit.</p>
+      <div class="seg" role="group" aria-label="Filter by year">
+        <button id="f-all" data-y="all" aria-pressed="true">Both years</button>
+        <button id="f-2025" data-y="2025" aria-pressed="false"><span class="dot" style="background:var(--y25)"></span>2025</button>
+        <button id="f-2026" data-y="2026" aria-pressed="false"><span class="dot" style="background:var(--y26)"></span>2026</button>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="n" id="s-permits">579</div><div class="l">Permits</div></div>
+        <div class="stat"><div class="n" id="s-addr">412</div><div class="l">Addresses</div></div>
+        <div class="stat"><div class="n" id="s-rep">—</div><div class="l" id="s-rep-l">In both years</div></div>
+      </div>
+      <div class="legend" id="legend"></div>
+      <label class="toggle" for="t-sellers"><input type="checkbox" id="t-sellers"><span class="sw"></span><span>Fireworks sellers <small id="t-sellers-n"></small></span></label>
+    </div>
+    <div class="rail-body">
+      <input class="search" id="q" type="search" placeholder="Find an address, e.g. Lynn Valley Rd" autocomplete="off" aria-label="Find an address">
+      <div class="list-title"><h2 id="list-h">Addresses, most permits first</h2><span class="c" id="list-c"></span></div>
+      <ul class="list" id="list"></ul>
+      <div class="foot">Permit data: DNV FOI release 26-214. Addresses located with the BC Address Geocoder; a few unit and block-level matches are approximate. Streets © OpenStreetMap contributors. <a href="https://github.com/mikepkes/dnv-fireworks-permits" target="_blank" rel="noopener" style="color:inherit">Data and corrections on GitHub</a>.</div>
+    </div>
+  </aside>
+  <main class="stage"><div id="map" role="region" aria-label="Map of permit locations"></div></main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>/*DATA_JS*/</script>
+<script>
+(function(){
+const D=window.DATA;
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const pts=D.pts.map(p=>({a:p[0],lat:p[1],lon:p[2],c25:p[3],c26:p[4],approx:p[5]}));
+let year='all', query='';
+try{const s=localStorage.getItem('fw-year'); if(s==='2025'||s==='2026'||s==='all') year=s;}catch(e){}
+
+const map=L.map('map',{preferCanvas:true,zoomSnap:0.5,minZoom:11,maxZoom:18,attributionControl:true});
+map.attributionControl.setPrefix(false).addAttribution('Streets © OpenStreetMap contributors');
+const R=L.canvas({padding:0.3});
+const ll=line=>line.map(p=>[p[1],p[0]]);
+const layers={};
+function base(){
+  Object.values(layers).forEach(l=>map.removeLayer(l));
+  // Draw land as a big rectangle under the coastline? Coast lines alone mark the shore; land is the default fill.
+  const land=css('--land');
+  map.getContainer().style.background=land;
+  layers.coast=L.layerGroup(D.coast.map(l=>L.polyline(ll(l),{renderer:R,color:css('--water'),weight:7,opacity:1,interactive:false})));
+  layers.river=L.layerGroup(D.river.map(l=>L.polyline(ll(l),{renderer:R,color:css('--water'),weight:3,interactive:false})));
+  layers.minor=L.layerGroup(D.minor.map(l=>L.polyline(ll(l),{renderer:R,color:css('--road-minor'),weight:1.2,interactive:false})));
+  layers.mid=L.layerGroup(D.mid.map(l=>L.polyline(ll(l),{renderer:R,color:css('--road-mid'),weight:2,interactive:false})));
+  layers.major=L.layerGroup(D.major.map(l=>L.polyline(ll(l),{renderer:R,color:css('--road-major'),weight:3,interactive:false})));
+  layers.bound=L.layerGroup(D.bound.map(l=>L.polyline(ll(l),{renderer:R,color:css('--bound'),weight:1.4,dashArray:'5 5',opacity:.8,interactive:false})));
+  ['coast','river','minor','mid','major','bound'].forEach(k=>layers[k].addTo(map));
+}
+const labels=L.layerGroup(D.labels.map(([n,lat,lon,a])=>L.marker([lat,lon],{interactive:false,keyboard:false,icon:L.divIcon({className:'rlabel',iconSize:[0,0],html:`<span style="transform:translate(-50%,-50%) rotate(${a}deg)">${n}</span>`})})));
+function labelZoom(){ if(map.getZoom()>=13.5) labels.addTo(map); else map.removeLayer(labels); }
+map.on('zoomend',labelZoom);
+
+const ptLayer=L.layerGroup().addTo(map);
+const markers=new Map();
+function cat(p){ if(year==='2025') return p.c25?'y25':null; if(year==='2026') return p.c26?'y26':null; return p.c25&&p.c26?'both':p.c25?'y25':'y26'; }
+function cnt(p){ return year==='2025'?p.c25:year==='2026'?p.c26:p.c25+p.c26; }
+function popup(p){
+  return `<div class="pop-a">${p.a}</div><div class="pop-r"><span>2025 <b>${p.c25}</b></span><span>2026 <b>${p.c26}</b></span></div>`+
+    (p.approx?'<div class="pop-n">Location approximate (block-level match)</div>':'');
+}
+function visible(){ return pts.filter(p=>cat(p)&&(!query||p.a.toLowerCase().includes(query))); }
+function draw(){
+  ptLayer.clearLayers(); markers.clear();
+  const v=visible().sort((a,b)=>cnt(a)-cnt(b));
+  const halo=css('--halo');
+  v.forEach(p=>{
+    const k=cat(p), n=cnt(p);
+    const m=L.circleMarker([p.lat,p.lon],{renderer:R,radius:4.5+Math.min(n-1,4)*2.2,fillColor:css('--'+k),fillOpacity:.9,color:halo,weight:1.5});
+    m.bindPopup(popup(p),{closeButton:false});
+    m.addTo(ptLayer); markers.set(p.a,m);
+  });
+  stats(); list(v);
+}
+function stats(){
+  const tot25=pts.reduce((s,p)=>s+p.c25,0), tot26=pts.reduce((s,p)=>s+p.c26,0);
+  const sel=pts.filter(p=>cat(p));
+  const permits=year==='2025'?tot25:year==='2026'?tot26:tot25+tot26;
+  document.getElementById('s-permits').textContent=permits;
+  document.getElementById('s-addr').textContent=sel.length;
+  const both=pts.filter(p=>p.c25&&p.c26).length;
+  const rep=document.getElementById('s-rep'), repl=document.getElementById('s-rep-l');
+  if(year==='all'){ rep.textContent=both; repl.textContent='Addresses in both years'; }
+  else { const multi=sel.filter(p=>cnt(p)>1).length; rep.textContent=multi; repl.textContent='With 2+ permits'; }
+  const lg=document.getElementById('legend');
+  const sizes='<span class="sz"><i style="width:7px;height:7px"></i><i style="width:11px;height:11px"></i><i style="width:15px;height:15px"></i> 1, 2, 3+ permits</span>';
+  lg.innerHTML=(year==='all'
+    ? `<span><i style="background:var(--y25)"></i>2025 only</span><span><i style="background:var(--y26)"></i>2026 only</span><span><i style="background:var(--both)"></i>Both years</span>`
+    : `<span><i style="background:var(--${year==='2025'?'y25':'y26'})"></i>${year} permit</span>`)+sizes;
+}
+function list(v){
+  const ul=document.getElementById('list');
+  const sorted=v.slice().sort((a,b)=>cnt(b)-cnt(a)||(b.c25&&b.c26)-(a.c25&&a.c26)||a.a.localeCompare(b.a));
+  document.getElementById('list-c').textContent=sorted.length+' shown';
+  ul.innerHTML='';
+  const frag=document.createDocumentFragment();
+  sorted.forEach(p=>{
+    const li=document.createElement('li'), b=document.createElement('button');
+    const k=cat(p), n=cnt(p);
+    b.innerHTML=`<i style="background:var(--${k})"></i><span class="a"></span><span class="k">${year==='all'?`${p.c25} · ${p.c26}`:n}</span>`;
+    b.querySelector('.a').textContent=p.a;
+    b.title=year==='all'?`${p.a}: ${p.c25} in 2025, ${p.c26} in 2026`:`${p.a}: ${n} in ${year}`;
+    b.addEventListener('click',()=>{ map.flyTo([p.lat,p.lon],16.5,{duration:.6}); setTimeout(()=>markers.get(p.a)?.openPopup(),650); });
+    li.appendChild(b); frag.appendChild(li);
+  });
+  ul.appendChild(frag);
+  document.getElementById('list-h').textContent=year==='all'?'Addresses · 2025 · 2026':'Addresses, most permits first';
+}
+document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>{
+  year=b.dataset.y;
+  document.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  try{localStorage.setItem('fw-year',year);}catch(e){}
+  draw();
+}));
+document.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x.dataset.y===year));
+document.getElementById('q').addEventListener('input',e=>{ query=e.target.value.trim().toLowerCase(); draw(); });
+
+const sellerLayer=L.layerGroup();
+D.sellers.forEach(s=>{
+  const m=L.marker([s.lat,s.lon],{icon:L.divIcon({className:'seller',iconSize:[0,0],html:'<div></div>'}),zIndexOffset:1000,title:s.names.join(', ')});
+  const src=s.sources.map(x=>x.url?`<a href="${x.url}" target="_blank" rel="noopener">${x.label}</a>`:x.label).join('; ');
+  const yrs=s.years.length?`Confirmed operating: ${s.years.join(', ')}.`:'Which seasons the store operated here is not confirmed.';
+  m.bindPopup(`<div class="pop-k">Fireworks seller</div><div class="pop-a">${s.addr}</div><div>${s.names.join(' · ')}</div>`+
+    `<div class="pop-r" style="margin-top:6px"><span>Permits at this address: 2025 <b>${s.c25}</b></span><span>2026 <b>${s.c26}</b></span></div>`+
+    `<div class="pop-s">${yrs} Source: ${src}.</div>`,{closeButton:false,maxWidth:280});
+  m.addTo(sellerLayer);
+});
+document.getElementById('t-sellers-n').textContent=`· ${D.sellers.length} listed retail address${D.sellers.length===1?'':'es'}`;
+const tS=document.getElementById('t-sellers');
+try{ tS.checked=localStorage.getItem('fw-sellers')==='1'; }catch(e){}
+const syncSellers=()=>{ if(tS.checked) sellerLayer.addTo(map); else map.removeLayer(sellerLayer); try{localStorage.setItem('fw-sellers',tS.checked?'1':'0');}catch(e){} };
+tS.addEventListener('change',syncSellers); syncSellers();
+
+const b=L.latLngBounds(pts.map(p=>[p.lat,p.lon]));
+map.fitBounds(b.pad(0.04));
+map.setMaxBounds(b.pad(0.6));
+base(); labelZoom(); draw();
+const mq=window.matchMedia('(prefers-color-scheme: dark)');
+const redraw=()=>{ base(); draw(); };
+mq.addEventListener?.('change',redraw);
+new MutationObserver(redraw).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+window.addEventListener('resize',()=>map.invalidateSize());
+})();
+</script>

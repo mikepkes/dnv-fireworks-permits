@@ -1,0 +1,413 @@
+address,lat,lon,match_precision,score,matched_address,source
+100 RIVERSIDE DR,49.3025354,-123.0191527,CIVIC_NUMBER,100,"100 Riverside Dr, District of North Vancouver, BC",BC Address Geocoder
+1000 BOWRON CRT,49.3154623,-122.975133,CIVIC_NUMBER,100,"1000 Bowron Crt, District of North Vancouver, BC",BC Address Geocoder
+1005 SHAKESPEARE AVE,49.3374076,-123.0459287,CIVIC_NUMBER,100,"1005 Shakespeare Ave, District of North Vancouver, BC",BC Address Geocoder
+1028 W 19TH ST,49.3266725,-123.1025211,CIVIC_NUMBER,97,"1028 W 19th St, North Vancouver, BC",BC Address Geocoder
+1030 LILLOOET RD,49.3165833,-123.0226227,CIVIC_NUMBER,100,"1030 Lillooet Rd, District of North Vancouver, BC",BC Address Geocoder
+1032 CLEMENTS AVE,49.3583588,-123.1009094,CIVIC_NUMBER,100,"1032 Clements Ave, District of North Vancouver, BC",BC Address Geocoder
+1059 FREDERICK RD,49.3416532,-123.0447358,CIVIC_NUMBER,100,"1059 Frederick Rd, District of North Vancouver, BC",BC Address Geocoder
+1064 W 21ST ST,49.3289381,-123.1037139,CIVIC_NUMBER,100,"1064 W 21st St, District of North Vancouver, BC",BC Address Geocoder
+1067 MARIGOLD PL,49.3532639,-123.1026875,CIVIC_NUMBER,100,"1067 Marigold Pl, District of North Vancouver, BC",BC Address Geocoder
+1069 MARIGOLD PL,49.3531828,-123.103023,CIVIC_NUMBER,100,"1069 Marigold Pl, District of North Vancouver, BC",BC Address Geocoder
+1069 MARINE DR,49.3237695,-123.1038542,BLOCK,99,"1069 Marine Dr, District of North Vancouver, BC",BC Address Geocoder
+1075 BEAUFORT RD,49.3165392,-122.9583094,CIVIC_NUMBER,100,"1075 Beaufort Rd, District of North Vancouver, BC",BC Address Geocoder
+1083 MONTROYAL BLVD,49.3559769,-123.10344,CIVIC_NUMBER,100,"1083 Montroyal Blvd, District of North Vancouver, BC",BC Address Geocoder
+1084 LODGE RD,49.3500691,-123.1027774,CIVIC_NUMBER,100,"1084 Lodge Rd, District of North Vancouver, BC",BC Address Geocoder
+1084 MARINE DR,49.3241218,-123.1044689,CIVIC_NUMBER,100,"1084 Marine Dr, District of North Vancouver, BC",BC Address Geocoder
+1089 LODGE RD,49.3496802,-123.1037238,CIVIC_NUMBER,100,"1089 Lodge Rd, District of North Vancouver, BC",BC Address Geocoder
+1089 MARINE DR,49.3236366,-123.104513,CIVIC_NUMBER,100,"1089 Marine Dr, District of North Vancouver, BC",BC Address Geocoder
+1093 ADDERLEY ST,49.3142944,-123.0462058,CIVIC_NUMBER,100,"1093 Adderley St, District of North Vancouver, BC",BC Address Geocoder
+1094 W 17TH ST,49.3249776,-123.1041403,CIVIC_NUMBER,100,"1094 W 17th St, District of North Vancouver, BC",BC Address Geocoder
+1098 W 17TH ST,49.3249831,-123.1043463,CIVIC_NUMBER,100,"1098 W 17th St, District of North Vancouver, BC",BC Address Geocoder
+1105 MONTROYAL BLVD,49.3559381,-123.1046813,CIVIC_NUMBER,100,"1105 Montroyal Blvd, District of North Vancouver, BC",BC Address Geocoder
+1110 RONAYNE RD,49.3392907,-123.0433179,CIVIC_NUMBER,100,"1110 Ronayne Rd, District of North Vancouver, BC",BC Address Geocoder
+1125 DEEP COVE RD,49.3168575,-122.953942,CIVIC_NUMBER,100,"1125 Deep Cove Rd, District of North Vancouver, BC",BC Address Geocoder
+1127 W 20TH ST,49.3274153,-123.1057075,CIVIC_NUMBER,100,"1127 W 20th St, District of North Vancouver, BC",BC Address Geocoder
+1149 CORTELL ST,49.3262705,-123.105669,CIVIC_NUMBER,100,"1149 Cortell St, District of North Vancouver, BC",BC Address Geocoder
+1150 BEECHWOOD CRES,49.318285,-123.1135401,CIVIC_NUMBER,100,"1150 Beechwood Cres, District of North Vancouver, BC",BC Address Geocoder
+1152 W 17TH ST,49.3250415,-123.1051818,CIVIC_NUMBER,100,"1152 W 17th St, District of North Vancouver, BC",BC Address Geocoder
+1153 REDWOOD ST,49.3181026,-123.1114333,CIVIC_NUMBER,100,"1153 Redwood St, District of North Vancouver, BC",BC Address Geocoder
+1162 CORTELL ST,49.3266331,-123.1064305,CIVIC_NUMBER,100,"1162 Cortell St, District of North Vancouver, BC",BC Address Geocoder
+1165 W 20TH ST,49.3269796,-123.1065877,CIVIC_NUMBER,100,"1165 W 20th St, District of North Vancouver, BC",BC Address Geocoder
+1166 HANDSWORTH RD,49.3528551,-123.1059202,CIVIC_NUMBER,100,"1166 Handsworth Rd, District of North Vancouver, BC",BC Address Geocoder
+1181 W 22ND ST,49.3296723,-123.1069147,CIVIC_NUMBER,100,"1181 W 22nd St, District of North Vancouver, BC",BC Address Geocoder
+1183 TALL TREE LANE,49.3487609,-123.1067267,CIVIC_NUMBER,100,"1183 Tall Tree Lane, District of North Vancouver, BC",BC Address Geocoder
+119 E KINGS RD,49.3372281,-123.0711074,CIVIC_NUMBER,100,"119 E Kings Rd, District of North Vancouver, BC",BC Address Geocoder
+1193 W 23RD ST,49.3308173,-123.1072972,CIVIC_NUMBER,100,"1193 W 23rd St, District of North Vancouver, BC",BC Address Geocoder
+12 ORWELL ST,49.2998476,-123.0291563,CIVIC_NUMBER,100,"12 Orwell St, District of North Vancouver, BC",BC Address Geocoder
+1204 BURNAGE RD,49.3387869,-123.1079277,CIVIC_NUMBER,100,"1204 Burnage Rd, District of North Vancouver, BC",BC Address Geocoder
+1211 GREENBRIAR WAY,49.340647,-123.1077703,CIVIC_NUMBER,100,"1211 Greenbriar Way, District of North Vancouver, BC",BC Address Geocoder
+1217 DOGWOOD CRES,49.3193293,-123.1125122,CIVIC_NUMBER,100,"1217 Dogwood Cres, District of North Vancouver, BC",BC Address Geocoder
+1220 FREDERICK RD,49.3418647,-123.0396305,CIVIC_NUMBER,100,"1220 Frederick Rd, District of North Vancouver, BC",BC Address Geocoder
+1221 HENDRY AVE,49.3189674,-123.0520837,CIVIC_NUMBER,100,"1221 Hendry Ave, District of North Vancouver, BC",BC Address Geocoder
+1226 CHAMBERLAIN DR,49.3455893,-123.0398053,CIVIC_NUMBER,100,"1226 Chamberlain Dr, District of North Vancouver, BC",BC Address Geocoder
+1228 FREDERICK RD,49.3422337,-123.0392904,CIVIC_NUMBER,100,"1228 Frederick Rd, District of North Vancouver, BC",BC Address Geocoder
+1229 BRACKNELL CRES,49.3479216,-123.1083481,CIVIC_NUMBER,100,"1229 Bracknell Cres, District of North Vancouver, BC",BC Address Geocoder
+1234 CHAMBERLAIN DR,49.3455634,-123.0395179,CIVIC_NUMBER,100,"1234 Chamberlain Dr, District of North Vancouver, BC",BC Address Geocoder
+1235 ADDERLEY ST,49.3162714,-123.041761,CIVIC_NUMBER,100,"1235 Adderley St, District of North Vancouver, BC",BC Address Geocoder
+1238 W 15TH ST,49.322284,-123.1091643,CIVIC_NUMBER,100,"1238 W 15th St, District of North Vancouver, BC",BC Address Geocoder
+1240 SOWDEN ST,49.3215713,-123.1094564,CIVIC_NUMBER,100,"1240 Sowden St, District of North Vancouver, BC",BC Address Geocoder
+1247 W KEITH RD,49.3258652,-123.1083631,CIVIC_NUMBER,100,"1247 W Keith Rd, District of North Vancouver, BC",BC Address Geocoder
+1252 E 16TH ST,49.3230324,-123.0399949,CIVIC_NUMBER,100,"1252 E 16th St, District of North Vancouver, BC",BC Address Geocoder
+1254 W 23RD ST,49.331309,-123.1091789,CIVIC_NUMBER,100,"1254 W 23rd St, District of North Vancouver, BC",BC Address Geocoder
+1256 TATLOW AVE,49.3195064,-123.1171226,CIVIC_NUMBER,100,"1256 Tatlow Ave, District of North Vancouver, BC",BC Address Geocoder
+1272 EMERY PL,49.33103,-123.0393187,CIVIC_NUMBER,100,"1272 Emery Pl, District of North Vancouver, BC",BC Address Geocoder
+1275 BRANTWOOD RD,49.3377432,-123.1093139,CIVIC_NUMBER,100,"1275 Brantwood Rd, District of North Vancouver, BC",BC Address Geocoder
+1280 WELLINGTON DR,49.3436663,-123.0396392,CIVIC_NUMBER,100,"1280 Wellington Dr, District of North Vancouver, BC",BC Address Geocoder
+1298 BRANTWOOD RD,49.3380335,-123.1093921,CIVIC_NUMBER,100,"1298 Brantwood Rd, District of North Vancouver, BC",BC Address Geocoder
+13-3150 SUNNYHURST RD,49.3376429,-123.0416893,UNIT,100,"UNIT 13 -- 3150 Sunnyhurst Rd, District of North Vancouver, BC",BC Address Geocoder
+13-650 ROCHE POINT DR,49.3117602,-122.9712762,CIVIC_NUMBER,99,"UNIT 13 -- 650 Roche Point Dr, District of North Vancouver, BC",BC Address Geocoder
+1300 PARKGATE AVE,49.3186365,-122.9733301,CIVIC_NUMBER,100,"1300 Parkgate Ave, District of North Vancouver, BC",BC Address Geocoder
+1311 APPIN RD,49.3195237,-123.0355424,CIVIC_NUMBER,100,"1311 Appin Rd, District of North Vancouver, BC",BC Address Geocoder
+1311 HOPE RD,49.3254911,-123.1108763,CIVIC_NUMBER,100,"1311 Hope Rd, District of North Vancouver, BC",BC Address Geocoder
+1327 CRAYFORD CLOSE,49.3292364,-123.0373009,CIVIC_NUMBER,100,"1327 Crayford Close, District of North Vancouver, BC",BC Address Geocoder
+1336 E 16TH ST,49.3230017,-123.037562,CIVIC_NUMBER,100,"1336 E 16th St, District of North Vancouver, BC",BC Address Geocoder
+1338 E 15TH ST,49.3219303,-123.0375755,CIVIC_NUMBER,100,"1338 E 15th St, District of North Vancouver, BC",BC Address Geocoder
+1340 DORAN RD,49.3446449,-123.036893,CIVIC_NUMBER,100,"1340 Doran Rd, District of North Vancouver, BC",BC Address Geocoder
+1356 DORAN RD,49.3446013,-123.0362902,CIVIC_NUMBER,100,"1356 Doran Rd, District of North Vancouver, BC",BC Address Geocoder
+1370 CHUCKART PL,49.3326334,-123.0360379,CIVIC_NUMBER,100,"1370 Chuckart Pl, District of North Vancouver, BC",BC Address Geocoder
+1370 DOVERCOURT RD,49.3427121,-123.0360395,CIVIC_NUMBER,100,"1370 Dovercourt Rd, District of North Vancouver, BC",BC Address Geocoder
+1375 BORTHWICK RD,49.3547877,-123.0359546,CIVIC_NUMBER,100,"1375 Borthwick Rd, District of North Vancouver, BC",BC Address Geocoder
+1391 RIVERSIDE DR,49.3199827,-123.0116613,CIVIC_NUMBER,100,"1391 Riverside Dr, District of North Vancouver, BC",BC Address Geocoder
+1395 E 18TH ST,49.3240187,-123.0362177,CIVIC_NUMBER,100,"1395 E 18th St, District of North Vancouver, BC",BC Address Geocoder
+140 W WINDSOR RD,49.3385707,-123.0734581,CIVIC_NUMBER,100,"140 W Windsor Rd, District of North Vancouver, BC",BC Address Geocoder
+143 RIVERSIDE DR,49.304745,-123.0215407,CIVIC_NUMBER,100,"143 Riverside Dr, District of North Vancouver, BC",BC Address Geocoder
+1433 DORAN RD,49.3440574,-123.0341918,CIVIC_NUMBER,100,"1433 Doran Rd, District of North Vancouver, BC",BC Address Geocoder
+1437 PAISLEY RD,49.3362191,-123.1136194,CIVIC_NUMBER,100,"1437 Paisley Rd, District of North Vancouver, BC",BC Address Geocoder
+1438 HAROLD RD,49.3381885,-123.03432,CIVIC_NUMBER,100,"1438 Harold Rd, District of North Vancouver, BC",BC Address Geocoder
+1446 DORAN RD,49.3445133,-123.0340663,CIVIC_NUMBER,100,"1446 Doran Rd, District of North Vancouver, BC",BC Address Geocoder
+1449 COLEMAN ST,49.3504514,-123.033507,CIVIC_NUMBER,100,"1449 Coleman St, District of North Vancouver, BC",BC Address Geocoder
+1449 KILMER RD,49.3459245,-123.0336318,CIVIC_NUMBER,100,"1449 Kilmer Rd, District of North Vancouver, BC",BC Address Geocoder
+1465 DORAN RD,49.3440356,-123.033395,CIVIC_NUMBER,100,"1465 Doran Rd, District of North Vancouver, BC",BC Address Geocoder
+1487 AVONLYNN CRES,49.3219536,-123.0335023,CIVIC_NUMBER,100,"1487 Avonlynn Cres, District of North Vancouver, BC",BC Address Geocoder
+1499 LIGHTHALL CRT,49.3202607,-122.9657271,CIVIC_NUMBER,100,"1499 Lighthall Crt, District of North Vancouver, BC",BC Address Geocoder
+1500 FERN ST,49.3118219,-123.0319093,CIVIC_NUMBER,100,"1500 Fern St, District of North Vancouver, BC",BC Address Geocoder
+1512 BOND ST,49.3072927,-123.0316355,CIVIC_NUMBER,100,"1512 Bond St, District of North Vancouver, BC",BC Address Geocoder
+1512 NORTON CRT,49.3209047,-122.9662076,CIVIC_NUMBER,100,"1512 Norton Crt, District of North Vancouver, BC",BC Address Geocoder
+1515 DOVERCOURT RD,49.3421416,-123.0319888,CIVIC_NUMBER,100,"1515 Dovercourt Rd, District of North Vancouver, BC",BC Address Geocoder
+1521 DOVERCOURT RD,49.3421186,-123.0314811,CIVIC_NUMBER,100,"1521 Dovercourt Rd, District of North Vancouver, BC",BC Address Geocoder
+1525 JUBILEE CRT,49.3211429,-122.9679528,CIVIC_NUMBER,100,"1525 Jubilee Crt, District of North Vancouver, BC",BC Address Geocoder
+1527 E 27TH ST,49.3329777,-123.0318468,CIVIC_NUMBER,100,"1527 E 27th St, District of North Vancouver, BC",BC Address Geocoder
+1531 KILMER PL,49.3452571,-123.0306468,CIVIC_NUMBER,100,"1531 Kilmer Pl, District of North Vancouver, BC",BC Address Geocoder
+1540 COLEMAN ST,49.3512368,-123.0306211,CIVIC_NUMBER,100,"1540 Coleman St, District of North Vancouver, BC",BC Address Geocoder
+1562 DOVERCOURT RD,49.342569,-123.0301724,CIVIC_NUMBER,100,"1562 Dovercourt Rd, District of North Vancouver, BC",BC Address Geocoder
+1566 KILMER RD,49.3461702,-123.02979,CIVIC_NUMBER,100,"1566 Kilmer Rd, District of North Vancouver, BC",BC Address Geocoder
+1587 PIERARD RD,49.3394087,-123.0302099,CIVIC_NUMBER,100,"1587 Pierard Rd, District of North Vancouver, BC",BC Address Geocoder
+1590 RUPERT ST,49.3081885,-123.0298179,CIVIC_NUMBER,100,"1590 Rupert St, District of North Vancouver, BC",BC Address Geocoder
+1600 LOOK OUT POINT,49.3209383,-122.9402476,CIVIC_NUMBER,100,"1600 Look Out Pt, District of North Vancouver, BC",BC Address Geocoder
+1610 ROSS RD,49.3363236,-123.0303665,CIVIC_NUMBER,100,"1610 Ross Rd, District of North Vancouver, BC",BC Address Geocoder
+1620 PIERARD RD,49.3403771,-123.0303818,CIVIC_NUMBER,100,"1620 Pierard Rd, District of North Vancouver, BC",BC Address Geocoder
+1621 MARINE DR,49.3237503,-123.1165146,CIVIC_NUMBER,100,"1621 Marine Dr, District of North Vancouver, BC",BC Address Geocoder
+1632 LANGWORTHY ST,49.3451683,-123.027088,CIVIC_NUMBER,100,"1632 Langworthy St, District of North Vancouver, BC",BC Address Geocoder
+1640 PAGE RD,49.3471013,-123.0269638,CIVIC_NUMBER,100,"1640 Page Rd, District of North Vancouver, BC",BC Address Geocoder
+1644 BRIDGMAN AVE,49.3235935,-123.1103068,CIVIC_NUMBER,100,"1644 Bridgman Ave, District of North Vancouver, BC",BC Address Geocoder
+1656 LANGWORTHY ST,49.3451445,-123.0262224,CIVIC_NUMBER,100,"1656 Langworthy St, District of North Vancouver, BC",BC Address Geocoder
+1662 RALPH ST,49.3500105,-123.026309,CIVIC_NUMBER,100,"1662 Ralph St, District of North Vancouver, BC",BC Address Geocoder
+1678 BOWSER AVE,49.3247851,-123.1158037,CIVIC_NUMBER,100,"1678 Bowser Ave, District of North Vancouver, BC",BC Address Geocoder
+170 E 29TH ST,49.3359096,-123.0699799,CIVIC_NUMBER,100,"170 E 29th St, District of North Vancouver, BC",BC Address Geocoder
+1710 TATLOW AVE,49.325066,-123.1172168,CIVIC_NUMBER,100,"1710 Tatlow Ave, District of North Vancouver, BC",BC Address Geocoder
+1711 CASCADE CRT,49.3224793,-122.9661458,CIVIC_NUMBER,100,"1711 Cascade Crt, District of North Vancouver, BC",BC Address Geocoder
+1711 ORKNEY PL,49.3221079,-122.992816,CIVIC_NUMBER,100,"1711 Orkney Pl, District of North Vancouver, BC",BC Address Geocoder
+1736 MCGUIRE AVE,49.3252558,-123.1199425,CIVIC_NUMBER,100,"1736 McGuire Ave, District of North Vancouver, BC",BC Address Geocoder
+1745-1979 MARINE DR,49.3239025,-123.1212353,BLOCK,98,"UNIT 1745 -- 1979 Marine Dr, District of North Vancouver, BC",BC Address Geocoder
+1751 MACGOWAN AVE,49.3254067,-123.1151322,CIVIC_NUMBER,100,"1751 MacGowan Ave, District of North Vancouver, BC",BC Address Geocoder
+1755 CALEDONIA AVE,49.3226272,-122.9525171,CIVIC_NUMBER,100,"1755 Caledonia Ave, District of North Vancouver, BC",BC Address Geocoder
+1755 CAPILANO RD,49.3257772,-123.1212582,CIVIC_NUMBER,100,"1755 Capilano Rd, District of North Vancouver, BC",BC Address Geocoder
+1755 LIONS GATE LANE,49.3265369,-123.121376,CIVIC_NUMBER,100,"1755 Lions Gate Lane, District of North Vancouver, BC",BC Address Geocoder
+1757 COLDWELL RD,49.3227578,-122.9590704,CIVIC_NUMBER,100,"1757 Coldwell Rd, District of North Vancouver, BC",BC Address Geocoder
+1777 CALEDONIA AVE,49.3227636,-122.9525631,CIVIC_NUMBER,100,"1777 Caledonia Ave, District of North Vancouver, BC",BC Address Geocoder
+1779 SCOTT RD,49.3381184,-123.0248847,CIVIC_NUMBER,100,"1779 Scott Rd, District of North Vancouver, BC",BC Address Geocoder
+180 E WINDSOR RD,49.3385621,-123.0694819,CIVIC_NUMBER,100,"180 E Windsor Rd, District of North Vancouver, BC",BC Address Geocoder
+180 W ST JAMES RD,49.339497,-123.0744041,CIVIC_NUMBER,100,"180 W St James Rd, District of North Vancouver, BC",BC Address Geocoder
+1801 MOUNTAIN HWY,49.3248452,-123.0400854,CIVIC_NUMBER,100,"1801 Mountain Hwy, District of North Vancouver, BC",BC Address Geocoder
+1870 BEAULYNN PL,49.3248915,-123.0335618,CIVIC_NUMBER,100,"1870 Beaulynn Pl, District of North Vancouver, BC",BC Address Geocoder
+1910 IRON CRT,49.3237624,-122.9589219,CIVIC_NUMBER,100,"1910 Iron Crt, District of North Vancouver, BC",BC Address Geocoder
+1927 TAYLOR CREEK PL,49.3241885,-122.974742,CIVIC_NUMBER,100,"1927 Taylor Creek Pl, District of North Vancouver, BC",BC Address Geocoder
+195 E KINGS RD,49.3372131,-123.068893,CIVIC_NUMBER,100,"195 E Kings Rd, District of North Vancouver, BC",BC Address Geocoder
+1953 PEMBERTON AVE,49.3272332,-123.1079888,CIVIC_NUMBER,100,"1953 Pemberton Ave, District of North Vancouver, BC",BC Address Geocoder
+1968 WHITMAN AVE,49.3255218,-122.9973543,CIVIC_NUMBER,100,"1968 Whitman Ave, District of North Vancouver, BC",BC Address Geocoder
+1987 BERKLEY AVE,49.3254677,-123.0051443,CIVIC_NUMBER,100,"1987 Berkley Ave, District of North Vancouver, BC",BC Address Geocoder
+2-3150 SUNNYHURST RD,49.3374998,-123.0420562,UNIT,100,"UNIT 2 -- 3150 Sunnyhurst Rd, District of North Vancouver, BC",BC Address Geocoder
+2011 BLAIRVIEW AVE,49.3269441,-122.9914977,CIVIC_NUMBER,100,"2011 Blairview Ave, District of North Vancouver, BC",BC Address Geocoder
+2015 HILL DR,49.3264636,-122.9917078,CIVIC_NUMBER,100,"2015 Hill Dr, District of North Vancouver, BC",BC Address Geocoder
+203-1677 LLOYD AVE,49.3242633,-123.1060558,UNIT,100,"UNIT 203 -- 1677 Lloyd Ave, District of North Vancouver, BC",BC Address Geocoder
+2030 DEEP COVE CRES,49.3254515,-122.9523725,CIVIC_NUMBER,100,"2030 Deep Cove Cres, District of North Vancouver, BC",BC Address Geocoder
+2064 ANITA CRT,49.3277103,-123.0483494,CIVIC_NUMBER,100,"2064 Anita Crt, District of North Vancouver, BC",BC Address Geocoder
+207 E QUEENS RD,49.335878,-123.0684821,CIVIC_NUMBER,100,"207 E Queens Rd, District of North Vancouver, BC",BC Address Geocoder
+2078 CLIFFWOOD LANE,49.3256758,-122.9539399,CIVIC_NUMBER,100,"2078 Cliffwood Lane, District of North Vancouver, BC",BC Address Geocoder
+2091 BERKLEY AVE,49.3263961,-123.0051669,CIVIC_NUMBER,100,"2091 Berkley Ave, District of North Vancouver, BC",BC Address Geocoder
+210 E ST JAMES RD,49.3394689,-123.0680484,CIVIC_NUMBER,100,"210 E St James Rd, District of North Vancouver, BC",BC Address Geocoder
+212 W KINGS RD,49.3376528,-123.0754838,CIVIC_NUMBER,100,"212 W Kings Rd, District of North Vancouver, BC",BC Address Geocoder
+2168 RUFUS DR,49.3287543,-123.0453525,CIVIC_NUMBER,100,"2168 Rufus Dr, District of North Vancouver, BC",BC Address Geocoder
+2190 PHILIP AVE,49.3297152,-123.1128966,CIVIC_NUMBER,100,"2190 Philip Ave, District of North Vancouver, BC",BC Address Geocoder
+220 MOUNTAIN HWY,49.3059242,-123.0319925,BLOCK,99,"220 Mountain Hwy, District of North Vancouver, BC",BC Address Geocoder
+220 SANDRINGHAM CRES,49.3418577,-123.0754384,CIVIC_NUMBER,100,"220 Sandringham Cres, District of North Vancouver, BC",BC Address Geocoder
+225 E QUEENS RD,49.3359129,-123.0681084,CIVIC_NUMBER,100,"225 E Queens Rd, District of North Vancouver, BC",BC Address Geocoder
+2250 HOSKINS RD,49.3288947,-123.0268255,CIVIC_NUMBER,100,"2250 Hoskins Rd, District of North Vancouver, BC",BC Address Geocoder
+2251 BERKLEY AVE,49.3280558,-123.0036287,CIVIC_NUMBER,100,"2251 Berkley Ave, District of North Vancouver, BC",BC Address Geocoder
+2251 MAGNUSSEN PL,49.3288855,-123.0481782,CIVIC_NUMBER,100,"2251 Magnussen Pl, District of North Vancouver, BC",BC Address Geocoder
+2279 OLD DOLLARTON RD,49.3074112,-123.011757,CIVIC_NUMBER,100,"2279 Old Dollarton Rd, District of North Vancouver, BC",BC Address Geocoder
+2307 BERKLEY AVE,49.3285372,-123.0027996,CIVIC_NUMBER,100,"2307 Berkley Ave, District of North Vancouver, BC",BC Address Geocoder
+2325 RIVERSIDE DR,49.3285794,-123.0085477,CIVIC_NUMBER,100,"2325 Riverside Dr, District of North Vancouver, BC",BC Address Geocoder
+233 W BALMORAL RD,49.3440159,-123.0753158,CIVIC_NUMBER,100,"233 W Balmoral Rd, District of North Vancouver, BC",BC Address Geocoder
+2385 BRIDGMAN AVE,49.3316346,-123.1105756,CIVIC_NUMBER,100,"2385 Bridgman Ave, District of North Vancouver, BC",BC Address Geocoder
+2404 CARMARIA CRT,49.330593,-123.0309403,CIVIC_NUMBER,100,"2404 Carmaria Crt, District of North Vancouver, BC",BC Address Geocoder
+2432 KILMARNOCK PL,49.3298244,-123.0282104,CIVIC_NUMBER,100,"2432 Kilmarnock Pl, District of North Vancouver, BC",BC Address Geocoder
+2433 PANORAMA DR,49.3290871,-122.9509776,CIVIC_NUMBER,100,"2433 Panorama Dr, District of North Vancouver, BC",BC Address Geocoder
+2441 PANORAMA DR,49.3292087,-122.9508182,CIVIC_NUMBER,100,"2441 Panorama Dr, District of North Vancouver, BC",BC Address Geocoder
+2449 BERTON PL,49.3169009,-123.0060832,CIVIC_NUMBER,100,"2449 Berton Pl, District of North Vancouver, BC",BC Address Geocoder
+2449 KEATS RD,49.3197277,-123.0063545,CIVIC_NUMBER,100,"2449 Keats Rd, District of North Vancouver, BC",BC Address Geocoder
+2450 KILMARNOCK CRES,49.3304621,-123.0284722,CIVIC_NUMBER,100,"2450 Kilmarnock Cres, District of North Vancouver, BC",BC Address Geocoder
+2456 WILLIAM AVE,49.3318216,-123.0501511,CIVIC_NUMBER,100,"2456 William Ave, District of North Vancouver, BC",BC Address Geocoder
+250 W QUEENS RD,49.3367921,-123.0762949,CIVIC_NUMBER,100,"250 W Queens Rd, District of North Vancouver, BC",BC Address Geocoder
+2515 EDGEMONT BLVD,49.3329401,-123.0964468,CIVIC_NUMBER,100,"2515 Edgemont Blvd, District of North Vancouver, BC",BC Address Geocoder
+2515 SECHELT DR,49.3262019,-123.0040101,CIVIC_NUMBER,100,"2515 Sechelt Dr, District of North Vancouver, BC",BC Address Geocoder
+2520 BOSWELL AVE,49.3228819,-123.0041422,CIVIC_NUMBER,100,"2520 Boswell Ave, District of North Vancouver, BC",BC Address Geocoder
+254 MONTROYAL BLVD,49.3476772,-123.0751534,CIVIC_NUMBER,100,"254 Montroyal Blvd, District of North Vancouver, BC",BC Address Geocoder
+2590 BELLOC ST,49.3196266,-123.0023857,CIVIC_NUMBER,100,"2590 Belloc St, District of North Vancouver, BC",BC Address Geocoder
+261 W ST JAMES RD,49.3390492,-123.0764964,CIVIC_NUMBER,100,"261 W St James Rd, District of North Vancouver, BC",BC Address Geocoder
+2631 HARDY CRES,49.320892,-123.0012447,CIVIC_NUMBER,100,"2631 Hardy Cres, District of North Vancouver, BC",BC Address Geocoder
+2632 BENDALE PL,49.3161238,-123.0007968,CIVIC_NUMBER,100,"2632 Bendale Pl, District of North Vancouver, BC",BC Address Geocoder
+2663 STANDISH DR,49.3250794,-123.0005609,CIVIC_NUMBER,100,"2663 Standish Dr, District of North Vancouver, BC",BC Address Geocoder
+267 W QUEENS RD,49.3363361,-123.0767502,CIVIC_NUMBER,100,"267 W Queens Rd, District of North Vancouver, BC",BC Address Geocoder
+274 W KINGS RD,49.337732,-123.0767447,CIVIC_NUMBER,100,"274 W Kings Rd, District of North Vancouver, BC",BC Address Geocoder
+2742 CRESTLYNN DR,49.3338003,-123.0358944,CIVIC_NUMBER,100,"2742 Crestlynn Dr, District of North Vancouver, BC",BC Address Geocoder
+275 W KINGS RD,49.3372727,-123.0767462,CIVIC_NUMBER,100,"275 W Kings Rd, District of North Vancouver, BC",BC Address Geocoder
+2752 EDGEMONT BLVD,49.3351127,-123.0981956,CIVIC_NUMBER,100,"2752 Edgemont Blvd, District of North Vancouver, BC",BC Address Geocoder
+2780 PANORAMA DR,49.3316929,-122.9434173,CIVIC_NUMBER,100,"2780 Panorama Dr, District of North Vancouver, BC",BC Address Geocoder
+2784 NEWMARKET DR,49.3355796,-123.1004916,CIVIC_NUMBER,100,"2784 Newmarket Dr, District of North Vancouver, BC",BC Address Geocoder
+2792 MT SEYMOUR PKWY,49.3161844,-122.9968179,CIVIC_NUMBER,100,"2792 Mt Seymour Pky, District of North Vancouver, BC",BC Address Geocoder
+2802 PANORAMA DR,49.3321847,-122.9426555,CIVIC_NUMBER,100,"2802 Panorama Dr, District of North Vancouver, BC",BC Address Geocoder
+2808 BUSHNELL PL,49.3342901,-123.0301116,CIVIC_NUMBER,100,"2808 Bushnell Pl, District of North Vancouver, BC",BC Address Geocoder
+2841 MASEFIELD RD,49.3349921,-123.0494951,CIVIC_NUMBER,100,"2841 Masefield Rd, District of North Vancouver, BC",BC Address Geocoder
+2875 CAPILANO RD,49.3359831,-123.1162483,CIVIC_NUMBER,100,"2875 Capilano Rd, District of North Vancouver, BC",BC Address Geocoder
+2881 CRESCENTVIEW DR,49.3357676,-123.1038096,CIVIC_NUMBER,100,"2881 Crescentview Dr, District of North Vancouver, BC",BC Address Geocoder
+2927 CAPILANO RD,49.3367677,-123.1159518,CIVIC_NUMBER,100,"2927 Capilano Rd, District of North Vancouver, BC",BC Address Geocoder
+2929 EDGEMONT BLVD,49.3362695,-123.1006961,CIVIC_NUMBER,100,"2929 Edgemont Blvd, District of North Vancouver, BC",BC Address Geocoder
+2936 PRINCESS AVE,49.3359454,-123.057704,CIVIC_NUMBER,100,"2936 Princess Ave, District of North Vancouver, BC",BC Address Geocoder
+2945 ST MARYS AVE,49.3358951,-123.0671188,CIVIC_NUMBER,100,"2945 St Marys Ave, District of North Vancouver, BC",BC Address Geocoder
+2966 MT SEYMOUR PKWY,49.3160897,-122.9934129,CIVIC_NUMBER,100,"2966 Mt Seymour Pky, District of North Vancouver, BC",BC Address Geocoder
+2967 WILLIAM AVE,49.3360737,-123.0508435,CIVIC_NUMBER,100,"2967 William Ave, District of North Vancouver, BC",BC Address Geocoder
+3000 GHUM-LYE DR,49.3097384,-122.9907857,CIVIC_NUMBER,100,"3000 Ghum-Lye Dr, District of North Vancouver, BC",BC Address Geocoder
+3001 GHUM-LYE DR,49.3092932,-122.9906496,CIVIC_NUMBER,100,"3001 Ghum-Lye Dr, District of North Vancouver, BC",BC Address Geocoder
+3001 PAISLEY RD,49.3371708,-123.1114823,CIVIC_NUMBER,100,"3001 Paisley Rd, District of North Vancouver, BC",BC Address Geocoder
+3010 SLEIL-WAUTUTH RD,49.3096089,-122.9884012,CIVIC_NUMBER,100,"3010 Sleil-Waututh Rd, District of North Vancouver, BC",BC Address Geocoder
+3012 EDGEMONT BLVD,49.3368241,-123.1005513,CIVIC_NUMBER,100,"3012 Edgemont Blvd, District of North Vancouver, BC",BC Address Geocoder
+3025 ELIZABETH WAY,49.3362567,-123.1113192,CIVIC_NUMBER,100,"3025 Elizabeth Way, District of North Vancouver, BC",BC Address Geocoder
+3028 ALDER CRT,49.3105502,-122.9908293,CIVIC_NUMBER,100,"3028 Alder Crt, District of North Vancouver, BC",BC Address Geocoder
+3041 DOLLARTON HWY,49.3082122,-122.9896746,CIVIC_NUMBER,100,"3041 Dollarton Hwy, District of North Vancouver, BC",BC Address Geocoder
+3044 DOLLARTON HWY,49.3088519,-122.989358,CIVIC_NUMBER,100,"3044 Dollarton Hwy, District of North Vancouver, BC",BC Address Geocoder
+3050 SLEIL-WAUTUTH RD,49.3123871,-122.9908062,CIVIC_NUMBER,100,"3050 Sleil-Waututh Rd, District of North Vancouver, BC",BC Address Geocoder
+3064 SLEIL-WAUTUTH RD,49.3126827,-122.9907458,CIVIC_NUMBER,100,"3064 Sleil-Waututh Rd, District of North Vancouver, BC",BC Address Geocoder
+3066 DOLLARTON HWY,49.3089393,-122.9889398,CIVIC_NUMBER,100,"3066 Dollarton Hwy, District of North Vancouver, BC",BC Address Geocoder
+3087 HOSKINS RD,49.336579,-123.0278595,CIVIC_NUMBER,100,"3087 Hoskins Rd, District of North Vancouver, BC",BC Address Geocoder
+3091 GHUM-LYE DR,49.3094227,-122.9872168,CIVIC_NUMBER,100,"3091 Ghum-Lye Dr, District of North Vancouver, BC",BC Address Geocoder
+3100 DOLLARTON HWY,49.3087769,-122.9873138,CIVIC_NUMBER,100,"3100 Dollarton Hwy, District of North Vancouver, BC",BC Address Geocoder
+3150 SUNNYHURST RD,49.3376429,-123.0416893,CIVIC_NUMBER,100,"3150 Sunnyhurst Rd, District of North Vancouver, BC",BC Address Geocoder
+3159 MONTON AVE,49.3384749,-123.1114148,CIVIC_NUMBER,100,"3159 Monton Ave, District of North Vancouver, BC",BC Address Geocoder
+3168 DOLLARTON HWY,49.3086605,-122.9850798,CIVIC_NUMBER,100,"3168 Dollarton Hwy, District of North Vancouver, BC",BC Address Geocoder
+3180 DELBROOK AVE,49.3380919,-123.0877439,CIVIC_NUMBER,100,"3180 Delbrook Ave, District of North Vancouver, BC",BC Address Geocoder
+3187 BEVERLEY CRES,49.3382897,-123.0994551,CIVIC_NUMBER,100,"3187 Beverley Cres, District of North Vancouver, BC",BC Address Geocoder
+3220 CONNAUGHT CRES,49.3389217,-123.1028693,CIVIC_NUMBER,100,"3220 Connaught Cres, District of North Vancouver, BC",BC Address Geocoder
+3233 NORWOOD AVE,49.3387283,-123.0776175,CIVIC_NUMBER,100,"3233 Norwood Ave, District of North Vancouver, BC",BC Address Geocoder
+3245 BEVERLEY CRES,49.3384452,-123.0995417,CIVIC_NUMBER,100,"3245 Beverley Cres, District of North Vancouver, BC",BC Address Geocoder
+325 LOACH PL,49.3059139,-122.9562015,CIVIC_NUMBER,100,"325 Loach Pl, District of North Vancouver, BC",BC Address Geocoder
+3268 CHAUCER AVE,49.3388071,-123.0447386,CIVIC_NUMBER,100,"3268 Chaucer Ave, District of North Vancouver, BC",BC Address Geocoder
+3273 TENNYSON CRES,49.3387549,-123.0484298,CIVIC_NUMBER,100,"3273 Tennyson Cres, District of North Vancouver, BC",BC Address Geocoder
+3290 ST GEORGES AVE,49.3390399,-123.0681719,CIVIC_NUMBER,100,"3290 St Georges Ave, District of North Vancouver, BC",BC Address Geocoder
+3308 VALE CRT,49.339164,-123.0951208,CIVIC_NUMBER,100,"3308 Vale Crt, District of North Vancouver, BC",BC Address Geocoder
+3325 MANNING CRES,49.3148877,-122.9790629,CIVIC_NUMBER,100,"3325 Manning Cres, District of North Vancouver, BC",BC Address Geocoder
+333 RIVERSIDE DR,49.3082246,-123.015115,CIVIC_NUMBER,100,"333 Riverside Dr, District of North Vancouver, BC",BC Address Geocoder
+3333 ROBINSON RD,49.3396451,-123.0211262,CIVIC_NUMBER,100,"3333 Robinson Rd, District of North Vancouver, BC",BC Address Geocoder
+3343 CALDER AVE,49.3395964,-123.0787461,CIVIC_NUMBER,100,"3343 Calder Ave, District of North Vancouver, BC",BC Address Geocoder
+3350 CHURCH ST,49.3393507,-123.0349887,CIVIC_NUMBER,100,"3350 Church St, District of North Vancouver, BC",BC Address Geocoder
+3368 WILLIAM AVE,49.3399721,-123.0501273,CIVIC_NUMBER,100,"3368 William Ave, District of North Vancouver, BC",BC Address Geocoder
+3381 EDGEMONT BLVD,49.3398577,-123.1055353,CIVIC_NUMBER,100,"3381 Edgemont Blvd, District of North Vancouver, BC",BC Address Geocoder
+3408 GASPE PL,49.3164315,-122.9772567,CIVIC_NUMBER,100,"3408 Gaspe Pl, District of North Vancouver, BC",BC Address Geocoder
+3424 ANNE MACDONALD WAY,49.3218546,-122.9776044,CIVIC_NUMBER,100,"3424 Anne MacDonald Way, District of North Vancouver, BC",BC Address Geocoder
+3444 ST KILDA AVE,49.3407377,-123.0626976,CIVIC_NUMBER,100,"3444 St Kilda Ave, District of North Vancouver, BC",BC Address Geocoder
+3480 MAHON AVE,49.3415282,-123.0792435,CIVIC_NUMBER,100,"3480 Mahon Ave, District of North Vancouver, BC",BC Address Geocoder
+3487 ST ANDREWS AVE,49.3408094,-123.0650049,CIVIC_NUMBER,100,"3487 St Andrews Ave, District of North Vancouver, BC",BC Address Geocoder
+3491 WELLINGTON CRES,49.3407561,-123.1024243,CIVIC_NUMBER,100,"3491 Wellington Cres, District of North Vancouver, BC",BC Address Geocoder
+3512 EMERALD DR,49.341089,-123.1034218,CIVIC_NUMBER,100,"3512 Emerald Dr, District of North Vancouver, BC",BC Address Geocoder
+355 W QUEENS RD,49.3360657,-123.0780745,CIVIC_NUMBER,100,"355 W Queens Rd, District of North Vancouver, BC",BC Address Geocoder
+3592 SUNSET BLVD,49.3419084,-123.1047604,CIVIC_NUMBER,100,"3592 Sunset Blvd, District of North Vancouver, BC",BC Address Geocoder
+3596 MALSUM DR,49.3110533,-122.9717625,CIVIC_NUMBER,100,"3596 Malsum Dr, District of North Vancouver, BC",BC Address Geocoder
+3596 SALAL DR,49.3091191,-122.972494,CIVIC_NUMBER,100,"3596 Salal Dr, District of North Vancouver, BC",BC Address Geocoder
+3597 MALSUM DR,49.3104086,-122.9709382,CIVIC_NUMBER,100,"3597 Malsum Dr, District of North Vancouver, BC",BC Address Geocoder
+3600 OSPREY CRT,49.31339,-122.9718986,CIVIC_NUMBER,100,"3600 Osprey Crt, District of North Vancouver, BC",BC Address Geocoder
+3603 GARIBALDI DR,49.3137863,-122.9722165,CIVIC_NUMBER,100,"3603 Garibaldi Dr, District of North Vancouver, BC",BC Address Geocoder
+3606 ALDERCREST DR,49.3080565,-122.9692904,CIVIC_NUMBER,100,"3606 Aldercrest Dr, District of North Vancouver, BC",BC Address Geocoder
+3625 EDGEMONT BLVD,49.3421587,-123.1083915,CIVIC_NUMBER,100,"3625 Edgemont Blvd, District of North Vancouver, BC",BC Address Geocoder
+3637 MAGINNIS AVE,49.3423125,-123.0349367,CIVIC_NUMBER,100,"3637 Maginnis Ave, District of North Vancouver, BC",BC Address Geocoder
+3658 LORAINE AVE,49.3427884,-123.106343,CIVIC_NUMBER,100,"3658 Loraine Ave, District of North Vancouver, BC",BC Address Geocoder
+3678 RUTHERFORD CRES,49.3428089,-123.0593735,CIVIC_NUMBER,100,"3678 Rutherford Cres, District of North Vancouver, BC",BC Address Geocoder
+368 W QUEENS RD,49.3367743,-123.0786352,CIVIC_NUMBER,100,"368 W Queens Rd, District of North Vancouver, BC",BC Address Geocoder
+3681 HENDERSON AVE,49.3432237,-123.0261394,CIVIC_NUMBER,100,"3681 Henderson Ave, District of North Vancouver, BC",BC Address Geocoder
+3743 ROBLIN PL,49.3434767,-123.0610788,CIVIC_NUMBER,100,"3743 Roblin Pl, District of North Vancouver, BC",BC Address Geocoder
+3744 RIVIERE PL,49.3426027,-123.1118591,CIVIC_NUMBER,100,"3744 Riviere Pl, District of North Vancouver, BC",BC Address Geocoder
+3782 HOSKINS RD,49.3442717,-123.028219,CIVIC_NUMBER,100,"3782 Hoskins Rd, District of North Vancouver, BC",BC Address Geocoder
+3791 HAMBER PL,49.3191518,-122.9666526,CIVIC_NUMBER,100,"3791 Hamber Pl, District of North Vancouver, BC",BC Address Geocoder
+3808 MT SEYMOUR PKWY,49.3162011,-122.9661443,CIVIC_NUMBER,100,"3808 Mt Seymour Pky, District of North Vancouver, BC",BC Address Geocoder
+3809 REGENT AVE,49.3443777,-123.0614207,CIVIC_NUMBER,100,"3809 Regent Ave, District of North Vancouver, BC",BC Address Geocoder
+3837 PRINCESS AVE,49.3447807,-123.0557113,CIVIC_NUMBER,100,"3837 Princess Ave, District of North Vancouver, BC",BC Address Geocoder
+3916 MT SEYMOUR PKWY,49.3161709,-122.9631477,CIVIC_NUMBER,100,"3916 Mt Seymour Pky, District of North Vancouver, BC",BC Address Geocoder
+3920 DELBROOK AVE,49.3452647,-123.0835356,CIVIC_NUMBER,100,"3920 Delbrook Ave, District of North Vancouver, BC",BC Address Geocoder
+3939 INDIAN RIVER DR,49.32203,-122.9645795,CIVIC_NUMBER,100,"3939 Indian River Dr, District of North Vancouver, BC",BC Address Geocoder
+3960 SUNNYCREST DR,49.3447821,-123.0967226,CIVIC_NUMBER,100,"3960 Sunnycrest Dr, District of North Vancouver, BC",BC Address Geocoder
+397 SEYMOUR RIVER PL,49.3089482,-123.0178325,CIVIC_NUMBER,100,"397 Seymour River Pl, District of North Vancouver, BC",BC Address Geocoder
+3980 INLET CRES,49.3208025,-122.9635319,CIVIC_NUMBER,100,"3980 Inlet Cres, District of North Vancouver, BC",BC Address Geocoder
+3988 HIXON PL,49.3262008,-122.9613895,CIVIC_NUMBER,100,"3988 Hixon Pl, District of North Vancouver, BC",BC Address Geocoder
+3989 MICHENER CRT,49.3468071,-123.0491001,CIVIC_NUMBER,100,"3989 Michener Crt, District of North Vancouver, BC",BC Address Geocoder
+400 MONTERAY AVE,49.3513336,-123.0794783,CIVIC_NUMBER,100,"400 Monteray Ave, District of North Vancouver, BC",BC Address Geocoder
+4001 MT SEYMOUR PKWY,49.3149827,-122.9615751,CIVIC_NUMBER,100,"4001 Mt Seymour Pky, District of North Vancouver, BC",BC Address Geocoder
+4011 LYNN VALLEY RD,49.3462611,-123.0242514,CIVIC_NUMBER,100,"4011 Lynn Valley Rd, District of North Vancouver, BC",BC Address Geocoder
+4040 RUBY AVE,49.3464462,-123.1057153,CIVIC_NUMBER,100,"4040 Ruby Ave, District of North Vancouver, BC",BC Address Geocoder
+4056 SUNNYCREST DR,49.3456102,-123.0923493,CIVIC_NUMBER,100,"4056 Sunnycrest Dr, District of North Vancouver, BC",BC Address Geocoder
+4061 VIOLET ST,49.3165494,-122.9593128,CIVIC_NUMBER,100,"4061 Violet St, District of North Vancouver, BC",BC Address Geocoder
+4072 HOSKINS RD,49.3466022,-123.0281382,CIVIC_NUMBER,100,"4072 Hoskins Rd, District of North Vancouver, BC",BC Address Geocoder
+408 W ST JAMES RD,49.3394735,-123.0801988,CIVIC_NUMBER,100,"408 W St James Rd, District of North Vancouver, BC",BC Address Geocoder
+4093 CANTERBURY CRES,49.3471956,-123.0903505,CIVIC_NUMBER,100,"4093 Canterbury Cres, District of North Vancouver, BC",BC Address Geocoder
+41-650 ROCHE POINT DR,49.3124458,-122.9706675,UNIT,100,"UNIT 41 -- 650 Roche Point Dr, District of North Vancouver, BC",BC Address Geocoder
+4104 DOLLAR RD,49.3089407,-122.9574879,CIVIC_NUMBER,100,"4104 Dollar Rd, District of North Vancouver, BC",BC Address Geocoder
+416-3717 HAMBER PL,49.3186565,-122.9676203,UNIT,100,"UNIT 416 -- 3717 Hamber Pl, District of North Vancouver, BC",BC Address Geocoder
+4210 GLENHAVEN CRES,49.3094247,-122.9548431,CIVIC_NUMBER,100,"4210 Glenhaven Cres, District of North Vancouver, BC",BC Address Geocoder
+4227 LIONS AVE,49.3484852,-123.0957747,CIVIC_NUMBER,100,"4227 Lions Ave, District of North Vancouver, BC",BC Address Geocoder
+4230 DOLLAR RD,49.3085241,-122.954531,CIVIC_NUMBER,100,"4230 Dollar Rd, District of North Vancouver, BC",BC Address Geocoder
+4280 CAPILANO RD,49.3485382,-123.1091766,CIVIC_NUMBER,100,"4280 Capilano Rd, District of North Vancouver, BC",BC Address Geocoder
+4302 CANTERBURY CRES,49.3491763,-123.0913271,CIVIC_NUMBER,100,"4302 Canterbury Cres, District of North Vancouver, BC",BC Address Geocoder
+4310 QUINTON PL,49.3491962,-123.1011253,CIVIC_NUMBER,100,"4310 Quinton Pl, District of North Vancouver, BC",BC Address Geocoder
+4320 CLIFFMONT RD,49.3229296,-122.9514241,CIVIC_NUMBER,100,"4320 Cliffmont Rd, District of North Vancouver, BC",BC Address Geocoder
+434 FELTON PL,49.3075242,-122.954528,CIVIC_NUMBER,100,"434 Felton Pl, District of North Vancouver, BC",BC Address Geocoder
+4350 CAPILANO RD,49.3499892,-123.1075308,CIVIC_NUMBER,100,"4350 Capilano Rd, District of North Vancouver, BC",BC Address Geocoder
+4375 NOTTINGHAM RD,49.3496361,-123.03071,CIVIC_NUMBER,100,"4375 Nottingham Rd, District of North Vancouver, BC",BC Address Geocoder
+4383 COVE CLIFF RD,49.3215646,-122.9499733,CIVIC_NUMBER,100,"4383 Cove Cliff Rd, District of North Vancouver, BC",BC Address Geocoder
+4399 PATTERDALE DR,49.3508477,-123.1106703,CIVIC_NUMBER,100,"4399 Patterdale Dr, District of North Vancouver, BC",BC Address Geocoder
+440 N DOLLARTON HWY,49.3074907,-122.9527011,CIVIC_NUMBER,100,"440 N Dollarton Hwy, District of North Vancouver, BC",BC Address Geocoder
+4438 VALENCIA AVE,49.351525,-123.0838983,CIVIC_NUMBER,100,"4438 Valencia Ave, District of North Vancouver, BC",BC Address Geocoder
+4445 HIGHLAND BLVD,49.3514903,-123.0953247,CIVIC_NUMBER,100,"4445 Highland Blvd, District of North Vancouver, BC",BC Address Geocoder
+4450 VALENCIA AVE,49.3516887,-123.0839568,CIVIC_NUMBER,100,"4450 Valencia Ave, District of North Vancouver, BC",BC Address Geocoder
+4457 EPPS AVE,49.3166304,-122.9478085,CIVIC_NUMBER,100,"4457 Epps Ave, District of North Vancouver, BC",BC Address Geocoder
+4460 RUSKIN PL,49.3520606,-123.091077,CIVIC_NUMBER,100,"4460 Ruskin Pl, District of North Vancouver, BC",BC Address Geocoder
+4468 HIGHLAND BLVD,49.352103,-123.0946668,CIVIC_NUMBER,100,"4468 Highland Blvd, District of North Vancouver, BC",BC Address Geocoder
+4486 LIONS AVE,49.3523323,-123.0975016,CIVIC_NUMBER,100,"4486 Lions Ave, District of North Vancouver, BC",BC Address Geocoder
+4507 CEDARCREST AVE,49.3534575,-123.0941276,CIVIC_NUMBER,100,"4507 Cedarcrest Ave, District of North Vancouver, BC",BC Address Geocoder
+4507 SUMMERSIDE LANE,49.3210982,-122.9465374,CIVIC_NUMBER,100,"4507 Summerside Lane, District of North Vancouver, BC",BC Address Geocoder
+4517 LIONS AVE,49.3530504,-123.0984201,CIVIC_NUMBER,100,"4517 Lions Ave, District of North Vancouver, BC",BC Address Geocoder
+452 W KINGS RD,49.3376957,-123.0810677,CIVIC_NUMBER,100,"452 W Kings Rd, District of North Vancouver, BC",BC Address Geocoder
+4535 MAPLERIDGE DR,49.3528209,-123.0999348,CIVIC_NUMBER,100,"4535 Mapleridge Dr, District of North Vancouver, BC",BC Address Geocoder
+4535 UNDERWOOD AVE,49.3512682,-123.0252097,CIVIC_NUMBER,100,"4535 Underwood Ave, District of North Vancouver, BC",BC Address Geocoder
+4540 STRATHCONA RD,49.3180596,-122.9454722,CIVIC_NUMBER,100,"4540 Strathcona Rd, District of North Vancouver, BC",BC Address Geocoder
+4555 RANGER AVE,49.3535423,-123.0909151,CIVIC_NUMBER,100,"4555 Ranger Ave, District of North Vancouver, BC",BC Address Geocoder
+4570 VALLEY RD,49.3519217,-123.0332613,CIVIC_NUMBER,100,"4570 Valley Rd, District of North Vancouver, BC",BC Address Geocoder
+4581 SKYLINE DR,49.3533562,-123.0860128,CIVIC_NUMBER,100,"4581 Skyline Dr, District of North Vancouver, BC",BC Address Geocoder
+462 FAIRWAY DR,49.3078945,-122.9568003,CIVIC_NUMBER,100,"462 Fairway Dr, District of North Vancouver, BC",BC Address Geocoder
+4620 TEVIOT PL,49.354631,-123.105644,CIVIC_NUMBER,100,"4620 Teviot Pl, District of North Vancouver, BC",BC Address Geocoder
+4621 COVE CLIFF RD,49.321478,-122.9434034,CIVIC_NUMBER,100,"4621 Cove Cliff Rd, District of North Vancouver, BC",BC Address Geocoder
+4652 EASTRIDGE RD,49.3260802,-122.9424256,CIVIC_NUMBER,100,"4652 Eastridge Rd, District of North Vancouver, BC",BC Address Geocoder
+4670 MCNAIR PL,49.3531918,-123.0299864,CIVIC_NUMBER,100,"4670 McNair Pl, District of North Vancouver, BC",BC Address Geocoder
+468 GENOA CRES,49.3486135,-123.080806,CIVIC_NUMBER,100,"468 Genoa Cres, District of North Vancouver, BC",BC Address Geocoder
+4687 HOSKINS RD,49.353052,-123.0294861,CIVIC_NUMBER,100,"4687 Hoskins Rd, District of North Vancouver, BC",BC Address Geocoder
+4700 PHEASANT PL,49.3553968,-123.1006131,CIVIC_NUMBER,100,"4700 Pheasant Pl, District of North Vancouver, BC",BC Address Geocoder
+4780 HOSKINS RD,49.354419,-123.027774,CIVIC_NUMBER,100,"4780 Hoskins Rd, District of North Vancouver, BC",BC Address Geocoder
+4782 RANGER AVE,49.3559108,-123.0902432,CIVIC_NUMBER,100,"4782 Ranger Ave, District of North Vancouver, BC",BC Address Geocoder
+4855 SHIRLEY AVE,49.3565005,-123.0971026,CIVIC_NUMBER,100,"4855 Shirley Ave, District of North Vancouver, BC",BC Address Geocoder
+498 MONTROYAL PL,49.3526168,-123.0819713,CIVIC_NUMBER,100,"498 Montroyal Pl, District of North Vancouver, BC",BC Address Geocoder
+5-555 RAVEN WOODS DR,49.3067972,-122.9696753,CIVIC_NUMBER,99,"UNIT 5 -- 555 Raven Woods Dr, District of North Vancouver, BC",BC Address Geocoder
+500 W 29TH ST,49.3358757,-123.0823794,CIVIC_NUMBER,100,"500 W 29th St, District of North Vancouver, BC",BC Address Geocoder
+505-3606 ALDERCREST DR,49.3080565,-122.9692904,UNIT,100,"UNIT 505 -- 3606 Aldercrest Dr, District of North Vancouver, BC",BC Address Geocoder
+51-650 ROCHE POINT DR,49.3120843,-122.9712687,UNIT,100,"UNIT 51 -- 650 Roche Point Dr, District of North Vancouver, BC",BC Address Geocoder
+5249 RANGER AVE,49.3606944,-123.0933016,CIVIC_NUMBER,100,"5249 Ranger Ave, District of North Vancouver, BC",BC Address Geocoder
+526 RIVERSIDE DR,49.3104542,-123.0143112,CIVIC_NUMBER,100,"526 Riverside Dr, District of North Vancouver, BC",BC Address Geocoder
+527 N DOLLARTON HWY,49.3085513,-122.9535803,CIVIC_NUMBER,100,"527 N Dollarton Hwy, District of North Vancouver, BC",BC Address Geocoder
+5287 MALASPINA PL,49.361689,-123.0931152,CIVIC_NUMBER,100,"5287 Malaspina Pl, District of North Vancouver, BC",BC Address Geocoder
+535 E BRAEMAR RD,49.3446811,-123.0619795,CIVIC_NUMBER,100,"535 E Braemar Rd, District of North Vancouver, BC",BC Address Geocoder
+540 BLUERIDGE AVE,49.3546974,-123.0846482,CIVIC_NUMBER,100,"540 Blueridge Ave, District of North Vancouver, BC",BC Address Geocoder
+5438 CLIFFRIDGE AVE,49.3625336,-123.0973988,CIVIC_NUMBER,100,"5438 Cliffridge Ave, District of North Vancouver, BC",BC Address Geocoder
+5538 DEERHORN LANE,49.3644341,-123.0980782,CIVIC_NUMBER,100,"5538 Deerhorn Lane, District of North Vancouver, BC",BC Address Geocoder
+556 GREENWAY AVE,49.3516538,-123.0826652,CIVIC_NUMBER,100,"556 Greenway Ave, District of North Vancouver, BC",BC Address Geocoder
+5565 MOLINA RD,49.3649029,-123.0940698,CIVIC_NUMBER,100,"5565 Molina Rd, District of North Vancouver, BC",BC Address Geocoder
+5595 MOLINA RD,49.365302,-123.0945129,CIVIC_NUMBER,100,"5595 Molina Rd, District of North Vancouver, BC",BC Address Geocoder
+569 SHANNON CRES,49.3420981,-123.0843406,CIVIC_NUMBER,100,"569 Shannon Cres, District of North Vancouver, BC",BC Address Geocoder
+575 ELSTREE PL,49.3405797,-123.0844775,CIVIC_NUMBER,100,"575 Elstree Pl, District of North Vancouver, BC",BC Address Geocoder
+614 BEACHVIEW DR,49.3095398,-122.9496645,CIVIC_NUMBER,100,"614 Beachview Dr, District of North Vancouver, BC",BC Address Geocoder
+617 VERONA PL,49.3452432,-123.0854087,CIVIC_NUMBER,100,"617 Verona Pl, District of North Vancouver, BC",BC Address Geocoder
+624 BAYCREST DR,49.3100787,-122.9518433,CIVIC_NUMBER,100,"624 Baycrest Dr, District of North Vancouver, BC",BC Address Geocoder
+639 CROYDON PL,49.3445854,-123.0863996,CIVIC_NUMBER,100,"639 Croydon Pl, District of North Vancouver, BC",BC Address Geocoder
+649 CRYSTAL CRT,49.3526143,-123.0875598,CIVIC_NUMBER,100,"649 Crystal Crt, District of North Vancouver, BC",BC Address Geocoder
+650 SEYLYNN CRES,49.3122589,-123.0310974,CIVIC_NUMBER,100,"650 Seylynn Cres, District of North Vancouver, BC",BC Address Geocoder
+654 ST IVES CRES,49.3386178,-123.0868714,CIVIC_NUMBER,100,"654 St Ives Cres, District of North Vancouver, BC",BC Address Geocoder
+682 ROSLYN BLVD,49.3111787,-122.9502856,CIVIC_NUMBER,100,"682 Roslyn Blvd, District of North Vancouver, BC",BC Address Geocoder
+688 BEACHVIEW DR,49.3114664,-122.9486713,CIVIC_NUMBER,100,"688 Beachview Dr, District of North Vancouver, BC",BC Address Geocoder
+7-3161 SPA-ATH RD,49.3116893,-122.9896826,UNIT,100,"UNIT 7 -- 3161 Spa-Ath Rd, District of North Vancouver, BC",BC Address Geocoder
+7-3163 SPA-ATH RD,49.3117639,-122.9891276,UNIT,100,"UNIT 7 -- 3163 Spa-Ath Rd, District of North Vancouver, BC",BC Address Geocoder
+712 SYLVAN AVE,49.3544962,-123.0882123,CIVIC_NUMBER,100,"712 Sylvan Ave, District of North Vancouver, BC",BC Address Geocoder
+725 E 14TH ST,49.3204855,-123.0539129,CIVIC_NUMBER,100,"725 E 14th St, District of North Vancouver, BC",BC Address Geocoder
+727 DONEGAL PL,49.3403645,-123.0898577,CIVIC_NUMBER,100,"727 Donegal Pl, District of North Vancouver, BC",BC Address Geocoder
+727 LYNN VALLEY RD,49.329314,-123.0525913,BLOCK,99,"727 Lynn Valley Rd, District of North Vancouver, BC",BC Address Geocoder
+730 E KEITH RD,49.3137382,-123.0538743,CIVIC_NUMBER,100,"730 E Keith Rd, District of North Vancouver, BC",BC Address Geocoder
+732 HANDSWORTH RD,49.351743,-123.088647,CIVIC_NUMBER,100,"732 Handsworth Rd, District of North Vancouver, BC",BC Address Geocoder
+739 WEYMOUTH DR,49.3312728,-123.052814,CIVIC_NUMBER,100,"739 Weymouth Dr, District of North Vancouver, BC",BC Address Geocoder
+743 ROSLYN BLVD,49.3122644,-122.9510943,CIVIC_NUMBER,100,"743 Roslyn Blvd, District of North Vancouver, BC",BC Address Geocoder
+744 E 21ST ST,49.3284641,-123.0518783,CIVIC_NUMBER,100,"744 E 21st St, District of North Vancouver, BC",BC Address Geocoder
+746 LYNN VALLEY RD,49.3299499,-123.0521965,CIVIC_NUMBER,100,"746 Lynn Valley Rd, District of North Vancouver, BC",BC Address Geocoder
+751 W QUEENS RD,49.3363187,-123.0891213,CIVIC_NUMBER,100,"751 W Queens Rd, District of North Vancouver, BC",BC Address Geocoder
+753 LYNN VALLEY RD,49.3296525,-123.0515275,CIVIC_NUMBER,100,"753 Lynn Valley Rd, District of North Vancouver, BC",BC Address Geocoder
+757 E ST JAMES RD,49.3389688,-123.0539617,CIVIC_NUMBER,100,"757 E St James Rd, District of North Vancouver, BC",BC Address Geocoder
+759 BLUERIDGE AVE,49.3568529,-123.0894406,CIVIC_NUMBER,100,"759 Blueridge Ave, District of North Vancouver, BC",BC Address Geocoder
+759 MORGAN RD,49.328974,-123.0520797,CIVIC_NUMBER,100,"759 Morgan Rd, District of North Vancouver, BC",BC Address Geocoder
+763 E 10TH ST,49.3164248,-123.0529745,CIVIC_NUMBER,100,"763 E 10th St, District of North Vancouver, BC",BC Address Geocoder
+764 E KEITH RD,49.3137513,-123.0530345,CIVIC_NUMBER,100,"764 E Keith Rd, District of North Vancouver, BC",BC Address Geocoder
+766 MONTROYAL BLVD,49.3561697,-123.0891532,CIVIC_NUMBER,100,"766 Montroyal Blvd, District of North Vancouver, BC",BC Address Geocoder
+770 CRYSTAL CRT,49.3541688,-123.0894304,CIVIC_NUMBER,100,"770 Crystal Crt, District of North Vancouver, BC",BC Address Geocoder
+773 E 12TH ST,49.3185014,-123.0524985,CIVIC_NUMBER,100,"773 E 12th St, District of North Vancouver, BC",BC Address Geocoder
+777 KILKEEL PL,49.3395188,-123.0902274,CIVIC_NUMBER,100,"777 Kilkeel Pl, District of North Vancouver, BC",BC Address Geocoder
+787 E 12TH ST,49.3185044,-123.0522782,CIVIC_NUMBER,100,"787 E 12th St, District of North Vancouver, BC",BC Address Geocoder
+798 E KEITH RD,49.3134701,-123.0520289,BLOCK,99,"798 E Keith Rd, District of North Vancouver, BC",BC Address Geocoder
+799 GRANTHAM PL,49.3131283,-123.0149229,CIVIC_NUMBER,100,"799 Grantham Pl, District of North Vancouver, BC",BC Address Geocoder
+802 APEX AVE,49.3129054,-122.98065,CIVIC_NUMBER,100,"802 Apex Ave, District of North Vancouver, BC",BC Address Geocoder
+803 E 29TH ST,49.3353034,-123.0526538,CIVIC_NUMBER,100,"803 E 29th St, District of North Vancouver, BC",BC Address Geocoder
+804 PORTEAU PL,49.3128891,-122.9787806,CIVIC_NUMBER,100,"804 Porteau Pl, District of North Vancouver, BC",BC Address Geocoder
+805 OLD LILLOOET RD,49.3149024,-123.0260179,CIVIC_NUMBER,100,"805 Old Lillooet Rd, District of North Vancouver, BC",BC Address Geocoder
+825 ROCHE POINT DR,49.3128961,-122.9706655,CIVIC_NUMBER,100,"825 Roche Point Dr, District of North Vancouver, BC",BC Address Geocoder
+829 E 13TH ST,49.3195399,-123.0509469,CIVIC_NUMBER,100,"829 E 13th St, District of North Vancouver, BC",BC Address Geocoder
+829 E 14TH ST,49.320451,-123.0506688,CIVIC_NUMBER,100,"829 E 14th St, District of North Vancouver, BC",BC Address Geocoder
+835 RUCKLE CRT,49.3130532,-122.9765968,CIVIC_NUMBER,100,"835 Ruckle Crt, District of North Vancouver, BC",BC Address Geocoder
+837 OLD LILLOOET RD,49.3153925,-123.0261515,CIVIC_NUMBER,100,"837 Old Lillooet Rd, District of North Vancouver, BC",BC Address Geocoder
+846 E 13TH ST,49.3199988,-123.0502712,CIVIC_NUMBER,100,"846 E 13th St, District of North Vancouver, BC",BC Address Geocoder
+847 DRAYTON ST,49.3161868,-123.0501976,CIVIC_NUMBER,100,"847 Drayton St, District of North Vancouver, BC",BC Address Geocoder
+850 E 10TH ST,49.3168627,-123.0502095,CIVIC_NUMBER,100,"850 E 10th St, District of North Vancouver, BC",BC Address Geocoder
+859 DRAYTON ST,49.3163476,-123.049816,CIVIC_NUMBER,100,"859 Drayton St, District of North Vancouver, BC",BC Address Geocoder
+861 CALVERHALL ST,49.3146983,-123.048133,CIVIC_NUMBER,100,"861 Calverhall St, District of North Vancouver, BC",BC Address Geocoder
+862 E 21ST ST,49.3284757,-123.0490022,CIVIC_NUMBER,100,"862 E 21st St, District of North Vancouver, BC",BC Address Geocoder
+866 NICOLUM CRT,49.3138428,-122.9790623,CIVIC_NUMBER,100,"866 Nicolum Crt, District of North Vancouver, BC",BC Address Geocoder
+869 DRAYTON ST,49.3165199,-123.0495299,CIVIC_NUMBER,100,"869 Drayton St, District of North Vancouver, BC",BC Address Geocoder
+898 REGAL CRES,49.3444204,-123.0510826,CIVIC_NUMBER,100,"898 Regal Cres, District of North Vancouver, BC",BC Address Geocoder
+9-995 LYNN VALLEY RD,49.3325726,-123.0459894,UNIT,100,"UNIT 9 -- 995 Lynn Valley Rd, District of North Vancouver, BC",BC Address Geocoder
+918 FAIRWAY DR,49.3144573,-122.9569881,CIVIC_NUMBER,100,"918 Fairway Dr, District of North Vancouver, BC",BC Address Geocoder
+919 STRATHAVEN DR,49.3139561,-122.9863444,CIVIC_NUMBER,100,"919 Strathaven Dr, District of North Vancouver, BC",BC Address Geocoder
+926 KENNEDY AVE,49.3405847,-123.0967105,CIVIC_NUMBER,100,"926 Kennedy Ave, District of North Vancouver, BC",BC Address Geocoder
+927 FAIRFIELD RD,49.313995,-122.9906468,CIVIC_NUMBER,100,"927 Fairfield Rd, District of North Vancouver, BC",BC Address Geocoder
+930 KENNEDY AVE,49.3406641,-123.0969808,CIVIC_NUMBER,100,"930 Kennedy Ave, District of North Vancouver, BC",BC Address Geocoder
+932 RIVERSIDE DR,49.3143049,-123.0115462,CIVIC_NUMBER,100,"932 Riverside Dr, District of North Vancouver, BC",BC Address Geocoder
+934 CANYON BLVD,49.3574091,-123.0957241,CIVIC_NUMBER,100,"934 Canyon Blvd, District of North Vancouver, BC",BC Address Geocoder
+934 KENNEDY AVE,49.340779,-123.097235,CIVIC_NUMBER,100,"934 Kennedy Ave, District of North Vancouver, BC",BC Address Geocoder
+939 E 14TH ST,49.3204584,-123.0473121,CIVIC_NUMBER,100,"939 E 14th St, District of North Vancouver, BC",BC Address Geocoder
+94 RIVERSIDE DR,49.3025354,-123.0191527,CIVIC_NUMBER,100,"94 Riverside Dr, District of North Vancouver, BC",BC Address Geocoder
+944 BOWRON CRT,49.3145931,-122.9740069,CIVIC_NUMBER,100,"944 Bowron Crt, District of North Vancouver, BC",BC Address Geocoder
+947 BEAUMONT DR,49.3430163,-123.0953608,CIVIC_NUMBER,100,"947 Beaumont Dr, District of North Vancouver, BC",BC Address Geocoder
+947 HUNTINGDON CRES,49.3150161,-122.95636,CIVIC_NUMBER,100,"947 Huntingdon Cres, District of North Vancouver, BC",BC Address Geocoder
+949 DRAYTON ST,49.3175377,-123.0472231,CIVIC_NUMBER,100,"949 Drayton St, District of North Vancouver, BC",BC Address Geocoder
+949 ROSLYN BLVD,49.3150975,-122.9515819,CIVIC_NUMBER,100,"949 Roslyn Blvd, District of North Vancouver, BC",BC Address Geocoder
+955 HARTFORD PL,49.3138831,-122.9888936,CIVIC_NUMBER,100,"955 Hartford Pl, District of North Vancouver, BC",BC Address Geocoder
+960 FOREST HILLS DR,49.3424497,-123.0974055,CIVIC_NUMBER,100,"960 Forest Hills Dr, District of North Vancouver, BC",BC Address Geocoder
+965 CANYON BLVD,49.3568926,-123.0972845,CIVIC_NUMBER,100,"965 Canyon Blvd, District of North Vancouver, BC",BC Address Geocoder
+974 WHITCHURCH ST,49.3175406,-123.0456825,CIVIC_NUMBER,100,"974 Whitchurch St, District of North Vancouver, BC",BC Address Geocoder
+975 TOLLCROSS RD,49.3149799,-122.9939938,CIVIC_NUMBER,100,"975 Tollcross Rd, District of North Vancouver, BC",BC Address Geocoder
+976 BELVISTA CRES,49.3539949,-123.0973699,CIVIC_NUMBER,100,"976 Belvista Cres, District of North Vancouver, BC",BC Address Geocoder
+980 E 21ST ST,49.3284408,-123.0464043,CIVIC_NUMBER,100,"980 E 21st St, District of North Vancouver, BC",BC Address Geocoder
+985 HAMPSHIRE RD,49.3474464,-123.0949866,CIVIC_NUMBER,100,"985 Hampshire Rd, District of North Vancouver, BC",BC Address Geocoder
+B-1007 MARINE DR,49.3237446,-123.1023954,BLOCK,98,"UNIT B -- 1007 Marine Dr, District of North Vancouver, BC",BC Address Geocoder
+B-1035 MARINE DR,49.3234621,-123.1027082,CIVIC_NUMBER,99,"UNIT B -- 1035 Marine Dr, District of North Vancouver, BC",BC Address Geocoder
+L-1247 E 27TH ST,49.3333224,-123.03985,BLOCK,98,"UNIT L -- 1247 E 27th St, District of North Vancouver, BC",BC Address Geocoder
+MA-2055 PURCELL WAY,49.3170632,-123.0197722,CIVIC_NUMBER,97,"2055 Purcell Way, District of North Vancouver, BC",BC Address Geocoder
